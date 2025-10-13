@@ -16,5 +16,98 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{nlab-context}{online}{}
+      \name{author}{1}{}{%
+        {{hash=05eb2584c658a84898da653286b25a7b}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           prefix={nLab},
+           prefixi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{05eb2584c658a84898da653286b25a7b}
+      \strng{fullhash}{05eb2584c658a84898da653286b25a7b}
+      \strng{bibnamehash}{05eb2584c658a84898da653286b25a7b}
+      \strng{authorbibnamehash}{05eb2584c658a84898da653286b25a7b}
+      \strng{authornamehash}{05eb2584c658a84898da653286b25a7b}
+      \strng{authorfullhash}{05eb2584c658a84898da653286b25a7b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Literally just to look up citation year of the book!}
+      \field{title}{Category Theory in Context}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ncatlab.org/nlab/show/Category+Theory+in+Context
+      \endverb
+      \verb{url}
+      \verb https://ncatlab.org/nlab/show/Category+Theory+in+Context
+      \endverb
+    \endentry
+    \entry{hatcher}{book}{}
+      \name{author}{1}{}{%
+        {{hash=60430c1ac989f9278a5d69515129a405}{%
+           family={Hatcher},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{60430c1ac989f9278a5d69515129a405}
+      \strng{fullhash}{60430c1ac989f9278a5d69515129a405}
+      \strng{bibnamehash}{60430c1ac989f9278a5d69515129a405}
+      \strng{authorbibnamehash}{60430c1ac989f9278a5d69515129a405}
+      \strng{authornamehash}{60430c1ac989f9278a5d69515129a405}
+      \strng{authorfullhash}{60430c1ac989f9278a5d69515129a405}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521795401}
+      \field{series}{Algebraic Topology}
+      \field{title}{Algebraic Topology}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://books.google.com.au/books?id=BjKs86kosqgC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.au/books?id=BjKs86kosqgC
+      \endverb
+    \endentry
+    \entry{context}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7c9bf52ba08b526b45f2ae6c49599a15}{%
+           family={Riehl},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \strng{fullhash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \strng{bibnamehash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \strng{authorbibnamehash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \strng{authornamehash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \strng{authorfullhash}{7c9bf52ba08b526b45f2ae6c49599a15}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Category Theory in Context}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://emilyriehl.github.io/files/context.pdf
+      \endverb
+      \verb{url}
+      \verb https://emilyriehl.github.io/files/context.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

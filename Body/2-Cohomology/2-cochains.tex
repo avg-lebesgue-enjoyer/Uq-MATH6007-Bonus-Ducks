@@ -1,0 +1,37 @@
+\begin{frame}[t]{Cohomology of cochain complexes} % .;
+
+  \par Fix $G \in \Ab$.
+  \par\attentive{Definition:} Cochain group functor
+  
+\end{frame}
+
+\begin{frame}[t]{Cohomology of cochain complexes} % .;
+
+  \par Fix $G \in \Ab$ and $n \in \mathbb{Z}$.
+  \par\attentive{Definition:} Cohomology group functors $H^n (\blank ; G)$
+  
+\end{frame}
+
+\begin{frame}{Cohomology of cochain complexes} % .;
+
+  \par As a highly nontrivial offhand remark$\dots$
+
+  \begin{block}{Theorem: universal coefficient \cite[Theorem~3.2]{hatcher}}
+    \par For all chain complexes $C$ of free Abelian groups, there is a split exact sequence
+    \vspace{-0.5 \baselineskip}
+    \begin{align*}
+      0
+      \to \operatorname{Ext} (H_{n - 1} (C), G)
+      \to H^n (C ; G)
+      \to \Ab (H_n (C), G)
+      \to 0
+    \end{align*}
+  \end{block}
+  \par $\dots$so the two ways we could have dualised:
+  \begin{itemize}[nosep]
+    \item[$\bullet$] $C_n \rightsquigarrow \eqmathbox[a]{\Ab(C_n, G)} \rightsquigarrow H^n (C; G)$
+    \item[$\bullet$] $C_n \rightsquigarrow \eqmathbox[a]{H_n (C)} \rightsquigarrow \Ab (H_n (C), G)$
+  \end{itemize}
+  are related.
+  
+\end{frame}

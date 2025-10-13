@@ -1,0 +1,61 @@
+\begin{frame}[t]{Axioms of homology theory (as in \cite{hatcher})} % .;
+
+  \par\attentive{Axioms for homology.} A (reduced) \attentive{homology theory} $\tilde{h}$ consists of:
+  \begin{itemize}
+    \pause
+    \item[$\bullet$] For each $n \in \mathbb{Z}$, a functor $\tilde{h}_n : \CWComplex \to \Ab$,
+    \pause
+    \item[$\bullet$] For each $n \in \mathbb{Z}$, an natural transformation $\partial_n : \tilde{h}_n (X/A) \to \tilde{h}_{n - 1} (A)$ (natural in CW pairs $(X, A)$)\footnote{The LHS and RHS are functors from the category of CW pairs $(A, X)$; the left is a composite of the ``take the quotient'' functor with $\tilde{h}_n$, and the right is a composite of the ``forget $X$'' functor with $\tilde{h}_{n - 1}$.},
+  \end{itemize}
+  \pause
+  subject to:
+  \begin{itemize}
+    \item[$\bullet$] $f \simeq_{\text{htpy}} g$ implies $\tilde{h}_n (f) = \tilde{h}_n (g)$,
+    \pause
+    \item[$\bullet$] {
+      For each CW pair $(X, A)$, we have an exact sequence
+      \begin{align*}
+        \begin{tikzcd}[
+          ampersand replacement = \;
+        ]
+          \cdots
+            \arrow[r, "\partial_{n + 1}"]
+          \; \tilde{h}_n (A)
+            \arrow[r, "\tilde{h}_n (\text{in.})"]
+          \; \tilde{h}_n (X)
+            \arrow[r, "\tilde{h}_n (\text{qt.})"]
+          \; \tilde{h}_n (X / A)
+            \arrow[r, "\partial_n"]
+          \; \cdots
+        \end{tikzcd}
+      \end{align*}
+    }
+    \pause
+    \item[$\bullet$] {
+      For any $\set*{X_{\alpha}}_{\alpha \in \A}$, the inclusions $X_{\alpha} \hookrightarrow \bigvee_{\alpha \in \A} X_{\alpha}$ give
+      \begin{align*}
+        \bigoplus_{\alpha \in \A} \tilde{h}_n (X_{\alpha})
+        &\simeq_{\Ab} \tilde{h}_n \left(
+          \bigvee_{\alpha \in \A} X_{\alpha}
+        \right)
+      \end{align*}
+    }
+  \end{itemize}
+  
+\end{frame}
+
+\begin{frame}{Going to cohomology} % .;
+
+  \par ``Taking the homology'' yields functors $H_n : \ChComplex \to \Ab$.
+  \pause
+  \begin{block}{}
+    \centering
+    What if we replace $\Ab$ with $\Ab^{\mathrm{op}}$?
+  \end{block}
+  \pause
+  \begin{itemize}
+    \item[$\bullet$] ``Cohomology functors'' $H^n : \ChComplex \to \Ab^{\mathrm{op}}$.
+    \item[$\bullet$] Axiom list with $\Ab$ replaced by $\Ab^{\mathrm{op}}$ should be satisfied\footnote{See \cite[\pno~202]{hatcher}. Admittedly, I haven't checked. Life busy :/}.
+  \end{itemize}
+
+\end{frame}

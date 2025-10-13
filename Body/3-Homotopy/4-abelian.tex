@@ -1,0 +1,54 @@
+\begin{frame}{Slight peeks of regularity} % .;
+
+  \par Earlier, we saw $\pi_n (\mathbb{S}^2)$ was Abelian for $n \geq 2$.
+  \vspace{\baselineskip}
+  \par\attentive{Result:} For all $X \in \Top_{*}$ and $n \geq 2$, $\pi_n (X)$ is Abelian.
+  \vspace{\baselineskip}
+  \par Proof coming soon (rest of this talk)$\dots$
+  
+\end{frame}
+
+\begin{frame}[t]{The higher homotopy groups are Abelian} % .;
+
+  \par Fix $X \in \Top_{*}$ and $n \in \mathbb{Z}_{\geq 2}$.
+  \par\attentive{Observation:} There are multiple group structures\footnote{To self: interchange} on $\pi_n (X)$
+  
+\end{frame}
+
+\begin{frame}[t]{The higher homotopy groups are Abelian} % .;
+
+  \par Fix $X \in \Top_{*}$ and $n \in \mathbb{Z}_{\geq 2}$.
+  \par Our group structures fit together by
+  \begin{align*}
+    (a \mathbin{\textcolor{pink}{+_1}} b)
+    \mathbin{\textcolor{cyan}{+_2}}
+    (x \mathbin{\textcolor{pink}{+_1}} y)
+    = (a \mathbin{\textcolor{cyan}{+_2}} x)
+    \mathbin{\textcolor{pink}{+_1}}
+    (b \mathbin{\textcolor{cyan}{+_2}} y)
+  \end{align*}
+
+  \vspace{2 \baselineskip}
+  \par\attentive{Result:} Eckmann-Hilton
+
+  \vspace{8 \baselineskip}
+  \par\attentive{Corollary:} $\pi_n (X)$ is Abelian.
+  
+\end{frame}
+
+\begin{frame}[t]{The Eckmann-Hilton argument}
+
+  \par\attentive{Result:} Eckmann-Hilton. \textit{Suppose monoids $(A, \textcolor{pink}{\bullet}, \textcolor{pink}{\mathbf{1}})$ and $(A, \textcolor{cyan}{\circ}, \textcolor{cyan}{1})$ defined on the same set $A$ satisfy the \attentive{interchange law}}
+  \begin{align*}
+    (a \mathbin{\textcolor{pink}{\bullet}} b)
+    \mathbin{\textcolor{cyan}{\circ}}
+    (x \mathbin{\textcolor{pink}{\bullet}} y)
+    = (a \mathbin{\textcolor{cyan}{\circ}} x)
+    \mathbin{\textcolor{pink}{\bullet}}
+    (b \mathbin{\textcolor{cyan}{\circ}} y)
+  \end{align*}
+  \par \textit{Then, $(\textcolor{pink}{\bullet}, \textcolor{pink}{\mathbf{1}}) = (\textcolor{cyan}{\circ}, \textcolor{cyan}{1})$ and the monoid is Abelian.}
+  \vspace{0.25 \baselineskip}
+  \par\attentive{Proof:} \only<1-1>{\footnotesize{(1/3)}}\only<2-2>{\footnotesize{(2/3)}}\only<3-3>{\footnotesize{(3/3)}}
+
+\end{frame}
