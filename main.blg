@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '/Users/gabriel/Documents/Specific-File-Backups/LaTeX-Base-Documents/BASE PRESENTATION FORMAT/main.blg'
+[47] biber-darwin:340> INFO - === Thu Feb 27, 2025, 10:08:27
+[54] Biber.pm:419> INFO - Reading '/Users/gabriel/Documents/Specific-File-Backups/LaTeX-Base-Documents/BASE PRESENTATION FORMAT/main.bcf'
+[100] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[108] bbl.pm:660> INFO - Writing '/Users/gabriel/Documents/Specific-File-Backups/LaTeX-Base-Documents/BASE PRESENTATION FORMAT/main.bbl' with encoding 'UTF-8'
+[109] bbl.pm:763> INFO - Output to /Users/gabriel/Documents/Specific-File-Backups/LaTeX-Base-Documents/BASE PRESENTATION FORMAT/main.bbl
+[109] Biber.pm:131> WARN - The file '/Users/gabriel/Documents/Specific-File-Backups/LaTeX-Base-Documents/BASE PRESENTATION FORMAT/main.bcf' does not contain any citations!
+[109] Biber.pm:133> INFO - WARNINGS: 1
