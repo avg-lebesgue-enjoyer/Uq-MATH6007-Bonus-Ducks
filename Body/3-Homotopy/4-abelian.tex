@@ -12,6 +12,23 @@
 
   \par Fix $X \in \Top_{*}$ and $n \in \mathbb{Z}_{\geq 2}$.
   \par\attentive{Observation:} There are multiple group structures\footnote{To self: interchange} on $\pi_n (X)$
+  \begin{align*}
+    \only<2->{
+    f \mathbin{\attentive{+_1}} g
+    &:= (t_1, t_2, \dots, t_n) \mapsto \begin{cases}
+      f(\attentive{2 t_1}, t_2, \dots, t_n) & \text{if } t_1 \leq 1/2 \\
+      g(\attentive{2 t_1 - 1}, t_2, \dots, t_n) & \text{else}
+    \end{cases}
+    }
+    \\
+    \only<3->{
+    f \mathbin{\textcolor{cyan}{+_2}} g
+    &:= (t_1, t_2, \dots, t_n) \mapsto \begin{cases}
+      f(t_1, \textcolor{cyan}{2 t_2}, \dots, t_n) & \text{if } t_2 \leq 1/2 \\
+      g(t_1, \textcolor{cyan}{2 t_2 - 1}, \dots, t_n) & \text{else}
+    \end{cases}
+    }
+  \end{align*}
   
 \end{frame}
 

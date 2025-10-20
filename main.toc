@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Categorical Duality}{3}{0}{1}
-\beamer@sectionintoc {2}{Why cohomology?}{13}{0}{2}
-\beamer@sectionintoc {3}{Why homotopy theory?}{31}{0}{3}
-\beamer@sectionintoc {4}{Outroduction}{46}{0}{4}
+\beamer@sectionintoc {2}{Why cohomology?}{12}{0}{2}
+\beamer@sectionintoc {3}{Why homotopy theory?}{30}{0}{3}
+\beamer@sectionintoc {4}{Outroduction}{47}{0}{4}

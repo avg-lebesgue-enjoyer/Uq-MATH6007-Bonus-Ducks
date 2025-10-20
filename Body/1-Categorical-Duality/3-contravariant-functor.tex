@@ -1,16 +1,59 @@
 \begin{frame}[t]{Contravariant functors} % .;
 
-  \par\attentive{Definition:} Functor. \textit{For all categories $\C, \D$, a \textbf{functor} $\C \to \D$ is}
-  \vspace{5\baselineskip}
+  \par\attentive{Definition:} \textit{A \textbf{functor} $F : \C \to \D$ is a structure-preserving map}
+  \begin{align*}
+    \begin{tikzcd}[
+      ampersand replacement = \;,
+      cramped,
+      sep = tiny
+    ]
+      \C \arrow[rr, "F"] \;         \; \D   \\
+      x \arrow[dd, "f"'] \;         \; F x \arrow[dd, "F f"]  \\
+                         \; \mapsto \;      \\
+      y                  \;         \; F y
+    \end{tikzcd}
+    \qquad F(g \circ f) = F g \circ F f
+    \qquad F 1_x = 1_{F x}
+  \end{align*}
   \par\attentive{Dual definition:} Contravariant functor\footnote{To self: cod}.
-  \vspace{5\baselineskip}
-  \par\attentive{Key example:} Representable functors.
   
 \end{frame}
 
 \begin{frame}[t]{Contravariant functors} % .;
 
-  \par\attentive{Result:} Functors preserve isomorphisms.
+  \par\attentive{Key example:} Representable functors. For $z \in \C$,
+
+  % \begin{align*}
+  %   \begin{tikzcd}[
+  %     ampersand replacement = \;,
+  %     cramped,
+  %     sep = tiny
+  %   ]
+  %     \C  \arrow[rr, "{\C(z, \blank)}"] \;         \; \Set      \\
+  %     x \arrow[dd, "f"']                \;         \; \C(z, x)  \\
+  %                                       \; \mapsto \;           \\
+  %     y                                 \;         \; \C(z, y)
+  %   \end{tikzcd}
+  %   \qquad \hspace{0.5 \linewidth}
+  %   \\
+  %   \begin{tikzcd}[
+  %     ampersand replacement = \;,
+  %     cramped,
+  %     sep = tiny
+  %   ]
+  %     \C \arrow[rr, "{\C(\blank, z)}"]  \;         \; \Set^{\mathrm{op}}  \\
+  %     x \arrow[dd, "f"']                \;         \; \C(x, z)            \\
+  %                                       \; \mapsto \;                     \\
+  %     y                                 \;         \; \C(y, z)
+  %   \end{tikzcd}
+  %   \qquad \hspace{0.5 \linewidth}
+  % \end{align*}
+
+\end{frame}
+
+\begin{frame}[t]{Contravariant functors} % .;
+
+  \par\attentive{Result:} \textit{\textbf{Functors preserve isomorphisms}. For all $\C \xrightarrow{F} \D$ and $f : x \simeq_{\C} y$, we have $F f : F x \simeq_{\D} F y$.}
   \vspace{10\baselineskip}
   \par\attentive{Dual result:}
   
@@ -18,6 +61,6 @@
 
 \begin{frame}[t]{Contravariant functors} % .;
 
-  \par\attentive{Example application of result:}
+  \par\attentive{Example application:} Isomorphic groups have isomorphic duals
   
 \end{frame}

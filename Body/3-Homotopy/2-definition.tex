@@ -2,6 +2,13 @@
 
   \par Fix $X \in \Top_{*}$ and $n \in \mathbb{Z}_{\geq 0}$.
   \par\attentive{Definition:} The homotopy ``group'' $\pi_n (X)$
+  \begin{align*}
+    \pi_n (X)
+    &:= \set*{
+      f : \I^n \to X
+      \given f (\partial \I^n) \subseteq \set*{*}
+    }_{/ \mathsf{htpy}}
+  \end{align*}
   
 \end{frame}
 
@@ -16,5 +23,12 @@
 
   \par Fix $X \in \Top_{*}$ and $n \in \mathbb{Z}$. \attentive{Assume $n \geq 1$.}
   \par\attentive{Definition:} Group structure on $\pi_n (X)$
+  \begin{align*}
+    f \mathbin{\attentive{+}} g
+    &:= (t_1, t_2, \dots, t_n) \mapsto \begin{cases}
+      f(\attentive{2 t_1}, t_2, \dots, t_n) & \text{if } t_1 \leq 1/2 \\
+      g(\attentive{2 t_1 - 1}, t_2, \dots, t_n) & \text{else}
+    \end{cases}
+  \end{align*}
   
 \end{frame}
